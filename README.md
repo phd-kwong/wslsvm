@@ -1,6 +1,8 @@
 # WSLSVM
 $$(\hat{\beta}_0,\hat{\beta}) =
-\argmin \limits_{(\beta_0,\beta)\in \mathbb{R}^{p+1}} L(\beta_0,\beta; X, Y) + \frac{\lambda\alpha}{n}\Vert D_{\omega_1}\beta \Vert_1+ \frac{\lambda(1-\alpha)}{n}\Vert D_{\omega_2}\mathbf{G}\beta \Vert_1,$$
+\argmin \limits_{(\beta_0,\beta)\in \mathbb{R}^{p+1}} L(\beta_0,\beta; X, Y) 
++ \frac{\lambda\alpha}{n}\Vert D_{\omega_1}\beta \Vert_1
++ \frac{\lambda(1-\alpha)}{n}\Vert D_{\omega_2}\mathbf{G}\beta \Vert_1$$
 
 # ADMM
 \begin{algorithm}
